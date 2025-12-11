@@ -9,7 +9,7 @@ import {
   OneToMany,
 } from 'typeorm';
 import * as bcrypt from 'bcrypt';
-import { Boleta } from '../boletas/entities/boleta.entity';
+import { Boleta } from '../../boletas/entities/boleta.entity';
 
 @Entity('users')
 export class User {
